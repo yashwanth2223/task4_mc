@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #A5D7E8;
+  overflow: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 5%;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+ul {
+  text-align: left;
+  padding-left: 10%;
+  padding:7%;
+  font-size: 2rem;
+  list-style: circle;
+}
+
+li:hover {
+  color: red;
+  margin: 4%;
+  transition: 1.5s ease;
+  cursor: pointer;
+}
